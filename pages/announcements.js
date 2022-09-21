@@ -10,6 +10,6 @@ export default function Announcements() {
                 </div>
             </div>
 
-                </div>
+        </div>
     )
 }

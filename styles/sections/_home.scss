@@ -1,10 +1,88 @@
 .home-cover {
-  background-image: url("/static/home123.png");
-  height: 80vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url("/static/home.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 85vh;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  .home-header {
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: $secondary-color;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 }
 
 #who {
   background-color: rgb($primary-color, 0.11);
   text-align: center;
   padding: 3rem 0;
+}
+
+#join {
+  text-align: center;
+  padding: 3rem 0;
+
+  .join-boxes {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 3rem auto;
+  }
+
+  .join-box {
+    border: $primary-color 0.25rem solid;
+    border-radius: 0.6rem;
+    color: $secondary-color;
+    margin: 0 2rem;
+
+    .join-box-content {
+      width: 80%;
+      margin: 3rem auto;
+    }
+
+    .box-header {
+      font-weight: 600;
+      font-size: 2.5rem;
+      margin: 1rem 0;
+    }
+
+    .box-subtext {
+      font-weight: 400;
+      line-height: 1.5;
+      font-size: 1.05rem;
+      margin: 1rem 0;
+    }
+
+    .box-btn {
+      display: inline-block;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      border-radius: 0.75rem;
+      font-weight: 600;
+      margin: 0.75rem 0;
+    }
+
+    .yale-btn {
+      background: $primary-color;
+      color: $secondary-color;
+    }
+
+    .haven-btn {
+      background: $secondary-color;
+      color: $primary-color;
+    }
+  }
+
+  .yale-box {
+    background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ), url("/static/yale.png");
+  }
+
+  .haven-box {
+    background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ), url("/static/new-haven.jpeg") center;
+  }
 }
