@@ -54,10 +54,11 @@ export default function Team() {
                     />
 
                     <TeamCard
-                        image={""}
+                        image={"/static/question-mark.png"}
                         name={"Your Name"}
                         title={"Good Doer"}
                         description={"This could be YOU!"}
+                        hasButton={true}
                     />
                 </div>
             </div>
