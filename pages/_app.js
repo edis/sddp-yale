@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps }) {
         </div>
         <Component {...pageProps} />
         <Footer />
+        <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </div>
   )
 }
