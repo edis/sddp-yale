@@ -44,7 +44,7 @@ export default function Home() {
                                 Are you ready to make a change in the world? .....
                                 More Text for this sub-text heading ....
                             </p>
-                            <a href={"#"} className={"box-btn yale-btn "}>
+                            <a href={"https://forms.gle/2UxYcCcYM9r7gzJa9"} className={"box-btn yale-btn "} target={"_blank"}>
                                 Join now
                             </a>
                           </div>
@@ -58,7 +58,7 @@ export default function Home() {
                               Are you ready to make a change in the world? .....
                               More Text for this sub-text heading ....
                           </p>
-                              <a href={"#"} className={"box-btn haven-btn"}>
+                              <a href={"https://forms.gle/AEpaXPyNrnJimGDh9 "} className={"box-btn haven-btn"} target={"_blank"}>
                               Join now
                             </a>
                           </div>
