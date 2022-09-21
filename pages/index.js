@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
       <div>
@@ -44,7 +46,7 @@ export default function Home() {
                                 Are you ready to make a change in the world? .....
                                 More Text for this sub-text heading ....
                             </p>
-                            <a href={"https://forms.gle/2UxYcCcYM9r7gzJa9"} className={"box-btn yale-btn "} target={"_blank"}>
+                            <a href={"https://forms.gle/2UxYcCcYM9r7gzJa9"} className={"box-btn yale-btn "} target={"_blank"} rel="noreferrer">
                                 Join now
                             </a>
                           </div>
@@ -58,7 +60,7 @@ export default function Home() {
                               Are you ready to make a change in the world? .....
                               More Text for this sub-text heading ....
                           </p>
-                              <a href={"https://forms.gle/AEpaXPyNrnJimGDh9 "} className={"box-btn haven-btn"} target={"_blank"}>
+                              <a href={"https://forms.gle/AEpaXPyNrnJimGDh9 "} className={"box-btn haven-btn"} target={"_blank"} rel="noreferrer">
                               Join now
                             </a>
                           </div>
