@@ -15,9 +15,9 @@
     "sass": "^1.54.9"
   },
   "devDependencies": {
+    "autoprefixer": "^10.0.4",
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
-    "autoprefixer": "^10.0.4",
     "postcss": "^8.1.10",
     "tailwindcss": "^2.1.1"
   }

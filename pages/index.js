@@ -1,6 +1,3 @@
-import Navbar from "../components/Navbar";
-import Link from "next/link";
-
 export default function Home() {
   return (
       <div>
@@ -21,6 +18,11 @@ export default function Home() {
                           committed to replacing the devastating War on Drugs with policies rooted in
                           compassion, health, and human rights.
                       </p>
+                      <div className={"gallery"}>
+                          <img src={"/static/gallery-first.png"}  />
+                          <img src={"/static/gallery-second.jpg"} />
+                          <img src={"/static/gallery-third.jpg"}  />
+                      </div>
                   </div>
               </div>
           </section>
