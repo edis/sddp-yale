@@ -121,4 +121,30 @@
       width: 90%;
     }
   }
+  #join {
+    .join-boxes {
+      margin-bottom: 1rem;
+      .join-box {
+       .box-header {
+          font-size: 2rem;
+       }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $sm-width) {
+  #join {
+    .join-boxes {
+      width: 100%;
+      margin: 2rem auto;
+    }
+    .join-box {
+      width: 90%;
+      margin: 0 auto;
+    .box-header {
+      font-size: 2rem;
+    }
+  }
+  }
 }
