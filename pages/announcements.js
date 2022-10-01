@@ -3,7 +3,7 @@ import {useEffect} from "react";
 
 export default function Announcements() {
     useEffect(() => {
-        print(attributes);
+        console.log(attributes);
     }, [])
 
 
