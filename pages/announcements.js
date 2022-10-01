@@ -1,7 +1,11 @@
-import { attributes, react as HomeContent } from '../content/announcements/first.md';
+import { attributes } from 'content/announcements/*';
+import {useEffect} from "react";
 
 export default function Announcements() {
-    let { title, date, content } = attributes;
+    useEffect(() => {
+        print(attributes);
+    }, [])
+
 
     return (
         <div>
