@@ -4,13 +4,13 @@ backend:
 media_folder: public/img
 public_folder: img
 collections:
-  - name: "pages"
-    label: "Pages"
-    files:
-      - label: "Home"
-        name: "home"
-        file: "content/home.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string"}
-          - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Content", name: "content", widget: "markdown"}
+  - label: "Blog"
+    name: "blog"
+    folder: "/blog"
+    create: true
+    identifier_field: name
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
