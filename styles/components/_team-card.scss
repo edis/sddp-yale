@@ -35,3 +35,31 @@
 
 }
 
+@media screen and (max-width: $lg-width) {
+  .team-card {
+    .image-box {
+      width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: $m-width) {
+  .team-card{
+    width: 100%;
+
+    .image-box {
+      width: 60%;
+    }
+  }
+}
+
+
+@media screen and (max-width: $sm-width) {
+  .team-card{
+    width: 100%;
+
+    .image-box {
+      width: 80%;
+    }
+  }
+}

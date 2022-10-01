@@ -10,6 +10,7 @@
   align-content: center;
 
   .home-header {
+    text-align: center;
     text-transform: uppercase;
     font-size: 5rem;
     color: $secondary-color;
@@ -94,3 +95,65 @@
   }
 }
 
+
+@media screen and (max-width: $lg-width) {
+  .home-cover {
+    .home-header {
+      font-size: 3rem;
+    }
+  }
+
+
+  #join {
+    .join-boxes {
+      flex-direction: column;
+
+      .yale-box {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $m-width) {
+  #who {
+    .gallery {
+      width: 90%;
+    }
+  }
+  #join {
+    .join-boxes {
+      margin-bottom: 1rem;
+      .join-box {
+       .box-header {
+          font-size: 2rem;
+       }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $sm-width) {
+  #who {
+    padding-bottom: 2rem;
+   .gallery {
+     flex-direction: column;
+     img {
+       width: 100%;
+     }
+   }
+  }
+  #join {
+    .join-boxes {
+      width: 100%;
+      margin: 2rem auto;
+    }
+    .join-box {
+      width: 90%;
+      margin: 0 auto;
+    .box-header {
+      font-size: 2rem;
+    }
+  }
+  }
+}

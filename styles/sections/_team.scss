@@ -28,3 +28,16 @@
   }
 }
 
+@media screen and (max-width: $m-width) {
+  .team {
+    .members {
+      .top-two {
+        flex-direction: column;
+      }
+      .bottom-three {
+        flex-direction: column;
+      }
+    }
+  }
+}
+

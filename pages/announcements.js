@@ -25,3 +25,5 @@ export default function Announcements() {
     )
 }
 
+// We meet Monday at 6:30 pm, link to instagram, link to groupme
+// groupme logo, and instagram logo
