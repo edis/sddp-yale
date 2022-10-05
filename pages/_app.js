@@ -16,9 +16,9 @@ function MyApp({ Component, pageProps }) {
             <Component {...pageProps} />
             <Footer />
         </div>
-        <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
     </div>
-  )
+)
 }
 
 export default MyApp
