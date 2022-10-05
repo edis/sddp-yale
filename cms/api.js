@@ -3,14 +3,7 @@ const client = require('contentful').createClient({
     accessToken: process.env.NEXT_PUBLIC_TOKEN
 })
 
-const getBlogPosts = () => client.getEntries()
+const getBlogPosts = () => client.getEntries({content_type: "announcement"});
+const getPamphlets = () => client.getEntries({content_type: "pamphlets"});
 
-const getSinglePost = slug =>
-    client
-        .getEntries({
-            'fields.slug': slug,
-            content_type: 'blogPost'
-        })
-        .then(response => response.items)
-
-export { getBlogPosts, getSinglePost }
+export { getBlogPosts, getPamphlets }

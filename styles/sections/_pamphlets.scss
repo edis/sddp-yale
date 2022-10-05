@@ -1,0 +1,22 @@
+.pamphlets {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.pams-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  .pam {
+    margin: 1rem auto;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: $m-width) {
+  .pams-list {
+    .pam {
+      width: 80%;
+    }
+  }
+}

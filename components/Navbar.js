@@ -28,6 +28,7 @@ const Navbar = () => {
                     <li className={"menu-list-item"}><Link href={"/"}><a className={"link"}>Home</a></Link></li>
                     <li className={"menu-list-item"}><Link href={"/team"}><a className={"link"}>Our Team</a></Link></li>
                     <li className={"menu-list-item"}><Link href={"/announcements"}><a className={"link"}>Announcements</a></Link></li>
+                    <li className={"menu-list-item"}><Link href={"/pamphlets"}><a className={"link"}>Pamphlets</a></Link></li>
                 </ul>
             </div>
             <div className={"hamburger"}>
@@ -44,6 +45,7 @@ const Navbar = () => {
                     <li className={"menu-list-item"} onClick={() => setisOpen(false)}><Link href={"/"}><a className={"link"}>Home</a></Link></li>
                     <li className={"menu-list-item"} onClick={() => setisOpen(false)}><Link href={"/team"}><a className={"link"}>Our Team</a></Link></li>
                     <li className={"menu-list-item"} onClick={() => setisOpen(false)}><Link href={"/announcements"}><a className={"link"}>Announcements</a></Link></li>
+                    <li className={"menu-list-item"} onClick={() => setisOpen(false)}><Link href={"/pamphlets"}><a className={"link"}>Pamphlets</a></Link></li>
                 </ul>
             {/*</div>*/}
 
