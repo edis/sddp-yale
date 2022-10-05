@@ -1,11 +1,11 @@
-import { attributes } from 'content/announcements/*';
-import {useEffect} from "react";
+import usePosts from "../hooks/cms-hook";
+import Markdown from 'react-markdown'
+import dateFormat from 'dateformat';
 
 export default function Announcements() {
-    useEffect(() => {
-        console.log(attributes);
-    }, [])
+    const [posts, isLoading] = usePosts()
 
+    console.log(posts)
 
     return (
         <div>
@@ -15,19 +15,22 @@ export default function Announcements() {
                     <p className={"description"}>
                         Stay up to date with our the SSDP’s updates, news, and future plans ...
                     </p>
+                    <br />
 
-                    <article style={{ textAlign: "left"}}>
-                        <br />
-                        <h1>{title}</h1>
-                        <p>{date}</p>
-                        <p>{content}</p>
-                    </article>
+                    {!isLoading && posts.items.map((post) => (
+                        <div key={post.fields.title} className={"post"}>
+                            <h2 key={post.fields.title} className={"title"}>{post.fields.title}</h2>
+                            <p key={post.fields.title} className={"date"}>
+                                {dateFormat(post.fields.date, "mmmm dS, yyyy")}
+                            </p>
+                            <p key={post.fields.title} className={"content"}>{post.fields.content}</p>
+                            <hr />
+                        </div>
+                    ))}
+
                 </div>
             </div>
 
         </div>
     )
 }
-
-// We meet Monday at 6:30 pm, link to instagram, link to groupme
-// groupme logo, and instagram logo

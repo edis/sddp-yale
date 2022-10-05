@@ -1,0 +1,14 @@
+.post {
+ text-align: left;
+ margin-top: 2rem;
+ .content {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+ }
+}
+
+@media screen and (max-width: $m-width) {
+ .post{
+  font-size: 95%;
+ }
+}
