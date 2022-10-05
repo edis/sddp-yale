@@ -1,4 +1,4 @@
-import usePosts from "../hooks/cms-hook";
+import  { usePosts } from "../hooks/cms-hook";
 import Markdown from 'react-markdown'
 import dateFormat from 'dateformat';
 
