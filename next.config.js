@@ -11,7 +11,11 @@ const nextConfig = {
         }
     )
     return cfg;
-  }
+  },
+    env: {
+        SPACE: process.env.NEXT_PUBLIC_SPACE,
+        TOKEN: process.env.NEXT_PUBLIC_TOKEN,
+    },
 }
 
 module.exports = nextConfig
