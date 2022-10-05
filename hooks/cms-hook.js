@@ -33,4 +33,4 @@ function usePamphlets() {
     return [pam, isLoading]
 }
 
-export { usePosts, usePamphlets}
+export { usePosts, usePamphlets }
