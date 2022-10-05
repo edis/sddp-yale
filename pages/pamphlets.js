@@ -17,7 +17,7 @@ const Pamphlets = () => {
 
                <div className={"pams-list"}>
                 {!isLoading && pams.items.map((pam) => (
-                   <img className={"pam"} src={pam.fields.image.fields.file.url} />
+                   <img key={pam.fields.image.fields.file.url} className={"pam"} src={pam.fields.image.fields.file.url} />
                 ))}
                </div>
            </div>

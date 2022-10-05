@@ -7,7 +7,7 @@ const Footer = () => {
                         © SSDP Yale 2022
                     </p>
                     <div className={"links"}>
-                        <a className={"link"} target="_blank" href={"https://www.yale.edu/"} rel="noreferrer"><img src={"/static/insta.svg"} /></a>
+                        <a className={"link"} target="_blank" href={"https://www.instagram.com/yale/"} rel="noreferrer"><img src={"/static/insta.svg"} /></a>
                         <a className={"link"} target="_blank" href={"https://www.yale.edu/"} rel="noreferrer"><img src={"/static/facebook.svg"} /></a>
                     </div>
                 </div>
