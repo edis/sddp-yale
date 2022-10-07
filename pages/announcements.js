@@ -5,7 +5,6 @@ import dateFormat from 'dateformat';
 export default function Announcements() {
     const [posts, isLoading] = usePosts()
 
-    console.log(posts)
 
     return (
         <div>
@@ -23,7 +22,9 @@ export default function Announcements() {
                             <p key={post.fields.title} className={"date"}>
                                 {dateFormat(post.fields.date, "mmmm dS, yyyy")}
                             </p>
-                            <p key={post.fields.title} className={"content"}>{post.fields.content}</p>
+                            <Markdown className={"content"}>
+                                {post.fields.content}
+                            </Markdown>
                             <hr />
                         </div>
                     ))}

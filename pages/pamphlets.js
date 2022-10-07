@@ -12,12 +12,21 @@ const Pamphlets = () => {
            <div className={"pamphlets"}>
                <h1 className={"header"}>Pamphlets</h1>
                <p className={"description"}>
-                 Stay up to date with our the SSDP’s updates, news, and future plans (pamphlets)...
+                   Just saying K<b className={"highlight"}>NO</b>W is half the battle
                </p>
 
                <div className={"pams-list"}>
                 {!isLoading && pams.items.map((pam) => (
-                   <img key={pam.fields.image.fields.file.url} className={"pam"} src={pam.fields.image.fields.file.url} />
+                   <a
+                       key={pam.fields.image.fields.file.url}
+                       href={pam.fields.image.fields.file.url}
+                       target={"_blank"}
+                   download>
+                    <img
+                        className={"pam"}
+                        src={pam.fields.image.fields.file.url}
+                    />
+                   </a>
                 ))}
                </div>
            </div>
