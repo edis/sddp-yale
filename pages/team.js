@@ -5,10 +5,6 @@ export default function Team() {
         <div className={"container"}>
         <div className={"team"}>
             <h1 className={"header"}>Meet our Team</h1>
-            <p className={"description"}>
-                Our team and members are at the heart of everything we do.
-                They are the makers, changers, influencers, and doers of SSDP Yale.
-            </p>
             <div className={"members"}>
                     <div className={"top-two"}>
                         <TeamCard

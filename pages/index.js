@@ -16,9 +16,9 @@ export default function Home() {
                   <div className={"container"}>
                       <h1 className={"header"}>Who we are?</h1>
                       <p className={"description"}>
-                          Text about projects ....... an international grassroots student organization
-                          committed to replacing the devastating War on Drugs with policies rooted in
-                          compassion, health, and human rights.
+                          SSDP aims to replace the disastrous war on drugs with policies rooted in
+                          science, compassion, and human rights. We hope to make change from our campus
+                          to the United Nations.
                       </p>
                       <div className={"gallery"}>
                           <img src={"/static/gallery-first.png"}  />
@@ -32,10 +32,6 @@ export default function Home() {
           <section id={"join"}>
               <div className={"container"}>
                   <h1 className={"header"}>Ready to join?</h1>
-                  <p className={"description"}>
-                      Are you ready to make a change in the world? ..... More Text for this sub-text heading ....
-                      and some even more text
-                  </p>
                   <div className={"join-boxes"}>
                       <div className={"yale-box join-box"}>
                           <div className={"join-box-content"}>
@@ -43,8 +39,7 @@ export default function Home() {
                                 Are you a Yale student?
                             </h3>
                             <p className={"box-subtext"}>
-                                Are you ready to make a change in the world? .....
-                                More Text for this sub-text heading ....
+                                Are you ready to make a change in the world? ...
                             </p>
                             <a href={"https://forms.gle/2UxYcCcYM9r7gzJa9"} className={"box-btn yale-btn "} target={"_blank"} rel="noreferrer">
                                 Join now
@@ -54,11 +49,10 @@ export default function Home() {
                       <div className={"haven-box join-box"}>
                           <div className={"join-box-content"}>
                           <h3 className={"box-header"}>
-                              New Haven Member ?
+                              Are you a New Haven Member ?
                           </h3>
                           <p className={"box-subtext"}>
-                              Are you ready to make a change in the world? .....
-                              More Text for this sub-text heading ....
+                              Are you ready to make a change in the world? ...
                           </p>
                               <a href={"https://forms.gle/AEpaXPyNrnJimGDh9 "} className={"box-btn haven-btn"} target={"_blank"} rel="noreferrer">
                               Join now

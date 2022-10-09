@@ -268,6 +268,14 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     "to-fast-properties" "^2.0.0"
 
+"@contentful/rich-text-html-renderer@^15.13.1":
+  "integrity" "sha512-FcQSMvWy8RQ4CggbpaXQ4Hrfx/APemJufcmzIF0kDmBBq5VACVo5jX2E35s+/GShz++JlTBFCAKoyMhbNKZuSw=="
+  "resolved" "https://registry.npmjs.org/@contentful/rich-text-html-renderer/-/rich-text-html-renderer-15.13.1.tgz"
+  "version" "15.13.1"
+  dependencies:
+    "@contentful/rich-text-types" "^15.12.1"
+    "escape-html" "^1.0.3"
+
 "@contentful/rich-text-react-renderer@^15.12.1":
   "integrity" "sha512-bQ69cN51iGBTF3/nYi5MGUaDJ/lnrEXtCUBCxulIZ0fLS/AAEledZTJcEKs+PKeYYgDqiUVDsmx2xZP2QsJJ+Q=="
   "resolved" "https://registry.npmjs.org/@contentful/rich-text-react-renderer/-/rich-text-react-renderer-15.12.1.tgz"
@@ -1121,6 +1129,11 @@
   "integrity" "sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw=="
   "resolved" "https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz"
   "version" "3.1.1"
+
+"escape-html@^1.0.3":
+  "integrity" "sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow=="
+  "resolved" "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz"
+  "version" "1.0.3"
 
 "escape-string-regexp@^1.0.5":
   "integrity" "sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg=="
