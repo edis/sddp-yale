@@ -21,6 +21,7 @@ const Pamphlets = () => {
                        key={pam.fields.image.fields.file.url}
                        href={pam.fields.image.fields.file.url}
                        target={"_blank"}
+                       rel="noreferrer"
                    download>
                     <img
                         className={"pam"}
