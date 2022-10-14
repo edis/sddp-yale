@@ -5,14 +5,13 @@ const Pamphlets = () => {
 
     const [pams, isLoading] = usePamphlets()
 
-    console.log(pams);
 
     return (
        <div className={"container"}>
            <div className={"pamphlets"}>
                <h1 className={"header"}>Pamphlets</h1>
                <p className={"description"}>
-                   Just saying K<b className={"highlight"}>NO</b>W is half the battle
+                   Just saying <b className={"highlight"}>KNOW</b> is half the battle
                </p>
 
                <div className={"pams-list"}>
