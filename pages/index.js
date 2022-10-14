@@ -39,7 +39,7 @@ export default function Home() {
                                 Are you a Yale student?
                             </h3>
                             <p className={"box-subtext"}>
-                                Are you ready to make a change in the world? ...
+                                {/*Are you ready to make a change in the world? ...*/}
                             </p>
                             <a href={"https://forms.gle/2UxYcCcYM9r7gzJa9"} className={"box-btn yale-btn "} target={"_blank"} rel="noreferrer">
                                 Join now
@@ -52,7 +52,7 @@ export default function Home() {
                               Are you a New Haven Member ?
                           </h3>
                           <p className={"box-subtext"}>
-                              Are you ready to make a change in the world? ...
+                              {/*Are you ready to make a change in the world? ...*/}
                           </p>
                               <a href={"https://forms.gle/AEpaXPyNrnJimGDh9 "} className={"box-btn haven-btn"} target={"_blank"} rel="noreferrer">
                               Join now
