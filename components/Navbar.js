@@ -29,6 +29,7 @@ const Navbar = () => {
                     <li className={"menu-list-item"}><Link href={"/team"}><a className={"link"}>Our Team</a></Link></li>
                     <li className={"menu-list-item"}><Link href={"/announcements"}><a className={"link"}>Announcements</a></Link></li>
                     <li className={"menu-list-item"}><Link href={"/pamphlets"}><a className={"link"}>Pamphlets</a></Link></li>
+                    <li className={"menu-list-item"}><Link href={"/photos"}><a className={"link"}>Photos</a></Link></li>
                     <li className={"menu-list-item"}>
                         <Link href={"https://www.instagram.com/yale/"}>
                             <a className={"insta"} target="_blank" href={"https://www.instagram.com/yale/"} rel="noreferrer"><img src={"/static/insta-black.svg"} /></a>
@@ -51,6 +52,7 @@ const Navbar = () => {
                     <li className={"menu-list-item"} onClick={() => setisOpen(false)}><Link href={"/team"}><a className={"link"}>Our Team</a></Link></li>
                     <li className={"menu-list-item"} onClick={() => setisOpen(false)}><Link href={"/announcements"}><a className={"link"}>Announcements</a></Link></li>
                     <li className={"menu-list-item"} onClick={() => setisOpen(false)}><Link href={"/pamphlets"}><a className={"link"}>Pamphlets</a></Link></li>
+                    <li className={"menu-list-item"} onClick={() => setisOpen(false)}><Link href={"/photos"}><a className={"link"}>Photos</a></Link></li>
                 </ul>
             {/*</div>*/}
 
