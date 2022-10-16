@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 
-import {getBlogPosts, getPamphlets} from '../cms/api'
+import {getBlogPosts, getPamphlets, getPhotos} from '../cms/api'
 
 const promisePost = getBlogPosts()
 const promisePam = getPamphlets()
+const promisePhotos = getPhotos()
 
 function usePosts() {
     const [posts, setPosts] = useState([])
@@ -33,4 +34,18 @@ function usePamphlets() {
     return [pam, isLoading]
 }
 
-export { usePosts, usePamphlets }
+function usePhotos() {
+    const [photos, setPhotos] = useState([])
+    const [isLoading, setLoading] = useState(true)
+
+    useEffect(() => {
+        promisePhotos.then(photos => {
+            setPhotos(photos)
+            setLoading(false)
+        })
+    }, [])
+
+    return [photos, isLoading]
+}
+
+export { usePosts, usePamphlets, usePhotos }

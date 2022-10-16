@@ -5,5 +5,6 @@ const client = require('contentful').createClient({
 
 const getBlogPosts = () => client.getEntries({content_type: "announcement"});
 const getPamphlets = () => client.getEntries({content_type: "pamphlets"});
+const getPhotos = () => client.getEntries({content_type: "photo"});
 
-export { getBlogPosts, getPamphlets }
+export { getBlogPosts, getPamphlets, getPhotos }
